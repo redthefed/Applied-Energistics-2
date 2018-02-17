@@ -145,7 +145,7 @@ public final class CompassService
 					for( int k = low_y; k < hi_y; k++ )
 					{
 						final Block blk = c.getBlockState( i, k, j ).getBlock();
-						if( blk == skyStoneBlock )
+						if( blk == skyStoneChest )
 						{
 							return this.executor.submit( new CMUpdatePost( w, cx, cz, cdy, true ) );
 						}
